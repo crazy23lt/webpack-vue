@@ -1,0 +1,13 @@
+{
+	"semi": true,
+	"singleQuote": false,
+	"arrowParens": "avoid",
+	"useTabs": true,
+	"quoteProps": "as-needed",
+	"trailingComma": "none",
+	"bracketSpacing": true,
+	"endOfLine": "lf",
+	"tabWidth": 2,
+	"embeddedLanguageFormatting": "auto",
+	"overrides": [{ "files": "*.html", "options": { "parser": "html" } }]
+}

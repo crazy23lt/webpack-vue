@@ -1,0 +1,9 @@
+node_module
+.editorconfig
+.gitignore
+.prettierignore
+.husky
+.eslintcache
+/dist
+/build
+.d.ts

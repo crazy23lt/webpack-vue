@@ -1,0 +1,16 @@
+# Ignore artifacts:
+# Prettier CLI 和编辑器知道哪些文件不能格式化
+build
+coverage
+# Ignore all HTML files:
+*.html
+node_module
+.editorconfig
+.gitignore
+.prettierignore
+yarn.lock
+.husky
+.eslintcache
+.eslintignore
+.vscode
+/dist

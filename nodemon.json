@@ -1,0 +1,6 @@
+{
+	"restartable": "rs",
+	"verbose": true,
+	"delay": 1000,
+	"watch": ["server/koa_temp/"]
+}

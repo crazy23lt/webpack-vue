@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>myVue Lib</title>
+</head>
+
+<body>
+	<div id="root">
+		<ul>
+			<li v-for="(value, index) in arr">{{value}}</li>
+		</ul>
+	</div>
+	<script type="module">
+		import Vue from "./vue.js"
+		const vm = new Vue({
+			data: {
+				song: { name: "dear john", star: 5 },
+				arr: [1, 2, 3, 4]
+			},
+		})
+		vm.$mount("#root");
+		setTimeout(() => {
+			vm.song.star = 10
+		}, 0);
+	</script>
+</body>
+
+</html>

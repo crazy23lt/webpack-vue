@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Vue Lib</title>
+	<script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.14/vue.js"></script>
+</head>
+
+<body>
+	<div id="root">
+	</div>
+
+	<script>
+		const ctor = Vue.extend({ render: function ($createElement) { return $createElement("main", [$createElement("p", "main")]) } })
+		Vue.component("my-header", { render: function ($createElement) { return $createElement("header", [$createElement("p", "Header")]) } })
+		Vue.component("my-main", ctor)
+		Vue.component("my-footer", { render: function ($createElement) { return $createElement("footer", [$createElement("p", "footer")]) } })
+		const vm = new Vue({
+			data: {
+				song: { name: "dear john", star: 5 }
+			},
+			render: function ($createElement) {
+				return $createElement("div", [$createElement("h1", this.song.name), $createElement("p", this.song.star)])
+			}
+		})
+		vm.$mount("#root");
+		setTimeout(() => {
+			vm.song.star = 10
+		}, 0);
+	</script>
+
+</body>
+
+</html>

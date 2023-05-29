@@ -1,0 +1,38 @@
+{
+  "usableSessionsCount": 1,
+  "retiredSessionsCount": 0,
+  "sessions": [
+    {
+      "id": "session_FZl4MVKzpM",
+      "cookieJar": {
+        "version": "tough-cookie@4.1.2",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "session",
+            "value": "eyJfZnJlc2giOmZhbHNlLCJfcGVybWFuZW50Ijp0cnVlLCJjc3JmX3Rva2VuIjp7IiBiIjoiWkdZeVl6UTJaakZrT0RrMU1UazJNemt6WVRSa1lqTmpPRFl6Tm1ZNU1UZGhaamt5TVdWa05BPT0ifX0.ZDEZeQ.5mj4Dij-X1weRA76JaqfC-xrZc8",
+            "expires": "2023-04-08T08:36:25.000Z",
+            "domain": "clm356.buzz",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-04-08T07:36:25.772Z",
+            "lastAccessed": "2023-04-08T07:36:25.772Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2023-04-08T08:26:22.558Z",
+      "createdAt": "2023-04-08T07:36:22.558Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    }
+  ]
+}

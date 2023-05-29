@@ -1,0 +1,23 @@
+# https://editorconfig.org
+
+# 已经是顶层配置文件，不必继续向上搜索
+root = true
+[*]
+# 设置缩进所占列数，如果 indent_style 为 tab，则以 tab_width 值作为缩进宽度
+indent_size = 8
+# 编码字符集  [latin1,utf-8,utf-8-bom,utf-16be,utf-16le,utf-8-bom]
+charset = utf-8
+# 缩进风格是空格 [ tab , space]
+indent_style = tab
+# 设置 tab 所占列数 默认是indent_size
+tab_width = 2
+# 去除行首的任意空白字符
+trim_trailing_whitespace = true
+# 设为 true 表示使文件以一个空白行结尾
+insert_final_newline = true
+# 换行符 lf
+end_of_line = lf
+
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false

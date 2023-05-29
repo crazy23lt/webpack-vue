@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"utils/*": ["src/utils/*"],
+			"store/*": ["src/store/*"],
+			"router/*": ["src/router/*"],
+			"assets/*": ["src/assets/*"],
+			"styles/*": ["src/styles/*"],
+			"api/*": ["src/api/*"],
+			"src/*": ["src/*"]
+		}
+	},
+	"exclude": ["node_modules", "dist"],
+	"vueComplierOptions": {
+		"target": 2
+	}
+}
